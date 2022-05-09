@@ -6053,6 +6053,11 @@ nth-check@^2.0.1:
   dependencies:
     boolbase "^1.0.0"
 
+nuka-carousel@^5.0.15:
+  version "5.0.15"
+  resolved "https://registry.yarnpkg.com/nuka-carousel/-/nuka-carousel-5.0.15.tgz#4e338ed1c987b12fc425ccf0f968327fefb8d54d"
+  integrity sha512-TXUpxQ1JzPxKeaZvLmjAtlFwBCw31YIadvtdHlG+l0uycuAWNWsSDd5LvwiNHRla3BgrGx3HvKFmOuejpc6/xQ==
+
 nwsapi@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/nwsapi/-/nwsapi-2.2.0.tgz#204879a9e3d068ff2a55139c2c772780681a38b7"

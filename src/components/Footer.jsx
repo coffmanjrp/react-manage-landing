@@ -123,7 +123,7 @@ const Footer = () => {
               <input
                 type="text"
                 className="flex-1 px-4 rounded-full focus:outline-none"
-                placeholder="Updated in your inbox"
+                placeholder="Updates in your inbox..."
               />
               <button
                 type="button"
