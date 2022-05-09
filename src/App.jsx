@@ -1,4 +1,11 @@
-import { CTASection, Features, Hero, Navbar, Testimonials } from './components';
+import {
+  CTASection,
+  Features,
+  Footer,
+  Hero,
+  Navbar,
+  Testimonials,
+} from './components';
 import './App.css';
 
 function App() {
@@ -9,6 +16,7 @@ function App() {
       <Features />
       <Testimonials />
       <CTASection />
+      <Footer />
     </>
   );
 }
