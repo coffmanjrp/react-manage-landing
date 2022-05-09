@@ -1,3 +1,4 @@
+import { CTA } from '.';
 import { avatar01, avatar02, avatar03, avatar04 } from '../img';
 
 const testimonials = [
@@ -50,6 +51,11 @@ const Testimonials = () => {
                 </p>
               </div>
             ))}
+        </div>
+        <div className="my-16">
+          <CTA href="#!" variant="red">
+            Get Started
+          </CTA>
         </div>
       </div>
     </section>

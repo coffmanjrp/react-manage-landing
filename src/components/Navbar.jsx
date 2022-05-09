@@ -1,3 +1,4 @@
+import { CTA } from '.';
 import { logo } from '../img';
 
 const navLinks = [
@@ -27,12 +28,11 @@ const Navbar = () => {
               </a>
             ))}
         </div>
-        <a
-          href="#!"
-          className="hidden md:block p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight"
-        >
-          Get Started
-        </a>
+        <div className="hidden md:block">
+          <CTA href="#!" variant="red">
+            Get Started
+          </CTA>
+        </div>
       </div>
     </nav>
   );

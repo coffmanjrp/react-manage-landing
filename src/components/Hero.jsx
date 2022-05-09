@@ -1,3 +1,4 @@
+import { CTA } from '.';
 import { illustrationIntro } from '../img';
 
 const Hero = () => {
@@ -13,12 +14,9 @@ const Hero = () => {
             while keeping the larger team goals in view.
           </p>
           <div className="flex justify-center md:justify-start">
-            <a
-              href="#!"
-              className="p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight"
-            >
+            <CTA href="#!" variant="red">
               Get Started
-            </a>
+            </CTA>
           </div>
         </div>
         <div className="md:w-1/2">
