@@ -1,3 +1,4 @@
+import illustrationIntro from './illustration-intro.svg';
 import logo from './logo.svg';
 
-export { logo };
+export { illustrationIntro, logo };
